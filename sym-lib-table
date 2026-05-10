@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MezzaConnector")(type "KiCad")(uri "${KIPRJMOD}/10132797-025100LF.kicad_sym")(options "")(descr ""))
+  (lib (name "LSM6DSO32TR")(type "KiCad")(uri "${KIPRJMOD}/LSM6DSO32TR/LSM6DSO32TR.kicad_sym")(options "")(descr ""))
+)

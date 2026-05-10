@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LSM6DSO32TR")(type "KiCad")(uri "${KIPRJMOD}/LSM6DSO32TR")(options "")(descr ""))
+)
