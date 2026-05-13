@@ -361,6 +361,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+BATT"
 			(power)
 			(pin_numbers
@@ -587,6 +694,24 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(junction
+		(at 240.03 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05a5092c-0cd5-47ca-b71b-effafab63e11")
+	)
+	(junction
+		(at 194.31 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a9ad19f-f484-4db5-8469-8d60e46c831b")
+	)
+	(junction
+		(at 217.17 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5124ca27-b208-4d50-9206-20d73012a867")
 	)
 	(junction
 		(at 49.53 31.75)
@@ -822,6 +947,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 147.32) (xy 240.03 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6899ee4f-697a-494d-9c16-fb63ff6b4569")
+	)
+	(wire
+		(pts
 			(xy 160.02 30.48) (xy 171.45 30.48)
 		)
 		(stroke
@@ -919,6 +1054,16 @@
 			(type default)
 		)
 		(uuid "ac2f02bc-320a-48d1-acda-98c93f6c1349")
+	)
+	(wire
+		(pts
+			(xy 240.03 147.32) (xy 240.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef98491-7f5d-40a1-a71c-d28fac8f4798")
 	)
 	(wire
 		(pts
@@ -1022,6 +1167,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 147.32) (xy 217.17 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df412b17-4140-4248-9e44-fe5897202c66")
+	)
+	(wire
+		(pts
 			(xy 43.18 44.45) (xy 43.18 45.72)
 		)
 		(stroke
@@ -1039,6 +1194,16 @@
 			(type default)
 		)
 		(uuid "e76d50eb-3e30-4a34-b321-8912e74e4e0a")
+	)
+	(wire
+		(pts
+			(xy 171.45 147.32) (xy 194.31 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb77b365-e679-423d-b4fa-54f908eeb6fa")
 	)
 	(wire
 		(pts
@@ -1069,6 +1234,73 @@
 			(type default)
 		)
 		(uuid "efc2e459-2b80-4855-8790-c814ccf2b090")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 171.45 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ce4f6b3-8d52-4d76-b981-78962621aaea")
+		(property "Reference" "H1"
+			(at 173.99 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 173.99 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3285b28a-5de6-434d-8e89-0e866f2ac5a3")
+		)
+		(instances
+			(project ""
+				(path "/5e0d566e-821c-4598-93aa-4f4ce1dc17b4"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1137,6 +1369,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 217.17 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ec80468-fb36-4848-9319-48441de2e220")
+		(property "Reference" "H3"
+			(at 219.71 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 219.71 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3ec31e4-c61d-47fa-a4c5-8871e23b10fb")
+		)
+		(instances
+			(project "kira_flight_computer_v2"
+				(path "/5e0d566e-821c-4598-93aa-4f4ce1dc17b4"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 43.18 44.45 270)
 		(unit 1)
@@ -1164,7 +1463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 43.18 49.53 0)
 			(effects
 				(font
@@ -1475,6 +1774,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 240.03 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84c1cbec-dbf7-4df8-94b1-6e0fcf230de9")
+		(property "Reference" "#PWR071"
+			(at 240.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "122cb47d-13e6-44d0-afbc-9189422796d1")
+		)
+		(instances
+			(project ""
+				(path "/5e0d566e-821c-4598-93aa-4f4ce1dc17b4"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 49.53 31.75 270)
 		(unit 1)
@@ -1502,7 +1867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 49.53 36.83 0)
 			(effects
 				(font
@@ -1536,6 +1901,140 @@
 			(project "kira_fc"
 				(path "/5e0d566e-821c-4598-93aa-4f4ce1dc17b4"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 194.31 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3bc1016-e703-498e-ab16-004226bcc4bf")
+		(property "Reference" "H2"
+			(at 196.85 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 196.85 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "069a06e5-7972-4206-a76d-7ef700005a9d")
+		)
+		(instances
+			(project "kira_flight_computer_v2"
+				(path "/5e0d566e-821c-4598-93aa-4f4ce1dc17b4"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 240.03 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdec5de2-096c-4f24-ac03-5e20d9095355")
+		(property "Reference" "H4"
+			(at 242.57 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 242.57 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a6ac837-c432-4e9e-873a-6388222b9159")
+		)
+		(instances
+			(project "kira_flight_computer_v2"
+				(path "/5e0d566e-821c-4598-93aa-4f4ce1dc17b4"
+					(reference "H4")
 					(unit 1)
 				)
 			)

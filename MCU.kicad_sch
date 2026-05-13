@@ -4303,24 +4303,24 @@
 			)
 		)
 	)
-	(global_label "GPIO{slash}PA15"
+	(global_label "GPIO{slash}PD7"
 		(shape input)
-		(at 132.08 85.09 0)
+		(at 86.36 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "88291538-73fc-4f63-8dea-ec852dddf432")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.6486 85.09 0)
+			(at 73.8195 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5004,7 +5004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_WE_IQXC-240-4Pin_1.2x1.0mm"
+		(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm"
 			(at 56.515 86.36 0)
 			(effects
 				(font
@@ -6501,7 +6501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 185.1152 34.29 0)
 			(effects
 				(font
@@ -7344,7 +7344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 197.8152 34.29 0)
 			(effects
 				(font
@@ -7414,7 +7414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 275.2852 34.29 0)
 			(effects
 				(font

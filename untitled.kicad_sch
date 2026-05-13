@@ -1243,10 +1243,6 @@
 		(uuid "f934a45c-4d40-4d33-90fb-0c7ba5459ca4")
 	)
 	(no_connect
-		(at 149.86 113.03)
-		(uuid "13d473f9-5676-4b51-a533-dfe11ecc4d58")
-	)
-	(no_connect
 		(at 134.62 92.71)
 		(uuid "40d1eddc-e6e1-4548-b0b2-0ba798be5d27")
 	)
@@ -1267,6 +1263,16 @@
 			(type default)
 		)
 		(uuid "0f16acee-4c2c-4d94-ba16-4aa41000958e")
+	)
+	(wire
+		(pts
+			(xy 149.86 113.03) (xy 149.86 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13377e6b-216a-4d37-ae6d-a857d610575f")
 	)
 	(wire
 		(pts
@@ -2560,7 +2566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 212.09 100.33 0)
 			(effects
 				(font
@@ -2696,7 +2702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 204.47 120.65 0)
 			(effects
 				(font
@@ -2871,6 +2877,72 @@
 			(project "kira_fc"
 				(path "/5e0d566e-821c-4598-93aa-4f4ce1dc17b4/c1a517a6-9680-47fe-a55e-9ebc64adfe6d"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe8d4adc-dd2e-42b0-a3c6-644f4b2f44eb")
+		(property "Reference" "#PWR070"
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cae2342-7fde-4c57-8153-31eb724df2c2")
+		)
+		(instances
+			(project "kira_flight_computer_v2"
+				(path "/5e0d566e-821c-4598-93aa-4f4ce1dc17b4/c1a517a6-9680-47fe-a55e-9ebc64adfe6d"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
